@@ -86,15 +86,11 @@ console.log(`Ответ на 10 вопрос: ${gretName}`);
  console.log(typeof(numb));
 
 // Представь: турист из Пскова прилетел в Москву и заказал автомобиль до хостела. 
-let time;
-time = 34;
-console.log(time);
+let time = 34;
 console.log('Старт поездки. Осталось минут: ' + time);
-console.log(time - 15);
-time = 19;
-console.log('Немного сторис в соцсетях. Осталось минут:' + time);
-console.log(time - 10);
-time = 9;
-console.log('Немного не новостей, но событий. Осталось минут:' + time);
+time = time - 15;
+console.log('Немного сторис в соцсетях. Осталось минут: ' + time);
+time = time - 10;
+console.log('Немного не новостей, но событий. Осталось минут: ' + time);
 time = 0;
-console.log("Вы приехали.Добро пожаловать в Москву.");
+console.log('Вы приехали. Добро пожаловать в Москву');
